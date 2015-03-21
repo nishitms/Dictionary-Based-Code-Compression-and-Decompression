@@ -1,0 +1,7 @@
+ReadMe (Compile Instructions)
+
+1. Please use the command below for compiling the project :
+
+g++ -std=c++0x SIM.cpp -o SIM
+
+2. The reason for above command is that I have used features of C++ 11 , like auto iterator to iterate through vectors, which is not compatible with th gcc version on thunder.
